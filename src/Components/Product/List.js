@@ -2,9 +2,6 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 class Planetlist extends React.Component{
-    constructor(props){
-        super(props);
-    }
     
     render(){
     return(
@@ -18,8 +15,8 @@ class Planetlist extends React.Component{
                
             <div className="card-body" style={{fload:"left"}}>
             <div className="row">     
-            <div className="col-1">     
-            <img className="card-img-left" height="80" src={post.thumbnail.image_url} alt={post.name} style={{fload:"left"}}/>
+            <div className="col-sm">     
+            <img className="card-img-top" src={post.thumbnail.image_url} alt={post.name} style={{fload:"left"}}/>
             </div>
             <div className="col-sm">  
             <Link to={`/post/${post.id}/comments`}>

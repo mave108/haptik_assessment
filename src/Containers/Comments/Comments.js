@@ -3,9 +3,6 @@ import {connect} from 'react-redux';
 import Layout from '../../Components/Layout/layout';
 import Nav from '../../Components/Nav/Nav';
 import {getComments} from '../../Actions/actions';
-import ProductList from '../../Components/Product/List';
-import Filter from '../../Components/Filter/Filter';
-import {USER_ID} from '../../Config/config';
 import Commentslist from '../../Components/Comments/List';
 
 

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/haptik_assessment/precache-manifest.7ab7fbc957ea0ff699521eda2578069a.js"
+  "/haptik_assessment/precache-manifest.2e6f46fb05baaea2c8245cbedbdfe6a8.js"
 );
 
 workbox.clientsClaim();

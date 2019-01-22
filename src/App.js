@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Route, Switch, BrowserRouter, Redirect,history } from 'react-router-dom';
+import { Route, Switch, BrowserRouter} from 'react-router-dom';
 import Products from './Containers/Products/products';
 import Mylikes from './Containers/Likes/Likes';
 import Comments from './Containers/Comments/Comments';

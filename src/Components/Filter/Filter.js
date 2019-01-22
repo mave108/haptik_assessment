@@ -13,7 +13,7 @@ const Filter =(props) =>{
                            type="search" placeholder="yyyy/mm/dd" 
                            onChange={ e => props.changeHandler(e.target.value)}
                            defaultValue={props.date}/>
-                    <button className="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+                    <button className="btn btn-outline-primary my-2 my-sm-0 filter-btn" type="submit">Search</button>
                 </form>        
             </div>
         </div>

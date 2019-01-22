@@ -1,4 +1,4 @@
-## Xebia Star War Assessment
+## Haptic Producthunt Assignment
 #Demo Url
 
 ## To run on local

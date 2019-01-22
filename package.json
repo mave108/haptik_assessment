@@ -1,8 +1,8 @@
 {
-  "name": "xebia-assessment",
+  "name": "Haptik Producthunt Assignment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/xebia_start_war_assessment/",
+  "homepage": "/haptik_assessment/",
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.7.0",
